@@ -42,7 +42,6 @@ class Contact extends Email {
     }
 }
 
-// Два экземпляра
 let contact1 = new Contact('alex@example.com', '+123456789012');
 let contact2 = new Contact('steven@example.com', '+123456789012345678');
 
@@ -52,7 +51,6 @@ console.log(contact1.phone);
 console.log(contact2.email);
 console.log(contact2.phone);
 
-// Изменение значений
 contact1.email = 'new@example.com';
 contact1.phone = '123456789012';
 

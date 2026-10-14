@@ -39,8 +39,6 @@ function deleteUser(id) {
     return false;
 }
 
-// Демонстрация работы функций
-
 addUser('John', 'Smith', 25);
 console.log('После добавления:', users);
 
